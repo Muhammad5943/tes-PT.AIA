@@ -1,0 +1,24 @@
+{
+  "port": 8081,
+  "development": {
+    "username": "postgres",
+    "password": "Landung25061995",
+    "database": "testbackend",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "testbackend-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "testbackend-prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
